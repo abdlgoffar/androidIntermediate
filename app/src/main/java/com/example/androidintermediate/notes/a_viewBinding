@@ -1,0 +1,6 @@
+//view binding adalah cara untuk membuat pengambilan component xml dari UI file.xml ke kotlin class menjadi lebih mudah, tanpa menggunakan method findViewById().
+
+//untuk menggunkan konsep view binding ikutilah requirement di bawah:
+//1. tambahkan configurasi pada file build.gradle(Module :app), yaitu 'buildFeatures { viewBinding true }'
+//2. buat properties binding, seperti di class MainActivity, code 001
+//3. ubah nilai setContentView() method, seperti di class MainActivity, code 002
