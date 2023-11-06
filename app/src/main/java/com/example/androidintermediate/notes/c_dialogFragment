@@ -1,0 +1,4 @@
+//dialog fragment adalah fragmant yang nanti view nya akan berbentuk seperti popup dialog.
+//seperti fragment biasa dialog fragment terdiri dari Kotlin class dan file.xml.
+
+//untuk mengetahui cara pembuatan kotlin class dialog fragment lihat di class GreetingFragment

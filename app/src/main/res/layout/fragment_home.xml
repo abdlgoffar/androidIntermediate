@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+        <TextView
+            android:id="@+id/textViewHomeFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="home fragment"
+            android:textSize="30dp"/>
+
+        <Button
+            android:id="@+id/buttonHomeFragmentGoToProfileFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Go To Profile Fragment"/>
+
+        <Button
+            android:id="@+id/buttonHomeFragmentGoToGreetingFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Go To Greeting Fragment"/>
+    </LinearLayout>
+
+
+</FrameLayout>

@@ -1,0 +1,12 @@
+//fragment adalah sebuah screen container yang berada di dalam activity, bahkan satu activity bisa memiliki lebih dari satu fragment.
+//untuk membuat sebuah activity bisa memiliki fragment maka activity tersebut pada file.xml nya harus mempunyai component 'FrameLayout'.
+//dan sama seperti activity fragment terdiri dai class kotlin dan file.xml sebagai UI nya.
+
+
+//untuk mengetahui cara pemanggilan fragment di dalam activity lihat di class FragmentActivity, code 001.
+
+//lalu untuk mengetahui cara cara berpindah dari satu fragment ke fragment lain lihat di class HomeFragment, code 001.
+
+//dan sebuah fragment bisa mengirim data ke fragment lain dengan properties nya yang
+//bernama arguments, cara mengirim data dari fragment ke fragment lain lihat di class HomeFragment, code 002.
+//dan untuk mengetahui cara menangkap data yg dikirim dari satu fragment ke fragment lain, lihat di class ProfileFragment, code 001.
